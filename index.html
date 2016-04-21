@@ -12,11 +12,11 @@
             <div class="container">
                 <div class="top-navigation">
                     <div class="tehnomart">
-                        <a class="a-tehnomart">ТЕХНОМАРТ</a>
+                        <h2 class="h2-tehnomart">ТЕХНОМАРТ</h2>
                     </div>
                     <input type="search" placeholder="Поиск">
-                    <a class="a-favourites">Закладки:0</a>
-                    <a class="a-curt">Корзина:0</a>
+                    <a class="a-favourites" href="#">Закладки:0</a>
+                    <span class="span-curt">Корзина:0</span>
                     <a class="a-checkout" href="#">Оформить заказ</a>
                 </div>
             </div>
@@ -26,14 +26,15 @@
             <div class="container">
                 <div class="main-info">
                     <div class="main-left-info">
-                        <a class="a-main-left-info">Интернет-магазин строительных материалов и инструментов для ремонта</a>
+                        <span class="span-main-left-info">Интернет-магазин строительных материалов и инструментов для ремонта</span>
                     </div>
-                    <div class="main-right-info">
+                    <address class="main-right-info-address" itemprop="address">
                         <div class="main-right-info-number">
-                            <a class="a-main-right-info-number">+7 (812) 555-05-55</a>
+                            <span class="number" itemprop="telephone">+7 (812) 555-05-55</span>
                         </div>
-                            <a class="a-main-right-info-adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</a>
-                    </div>
+                            <span class="city" itemprop="addressLocality">г. Санкт-Петербург,</span>
+                            <span class="streer" itemprop="streetAddress">ул. Б. Конюшенная, д. 19/8</span>
+                    </address>
                 </div>
                     <div class="user-block">
                         <a class="a-login" href="#">Войти</a>
@@ -41,7 +42,7 @@
                     </div>
                     <div class="container">
                         <nav class="main-navigation">
-                            <ul>
+                            <ul class="ul-main-navigation">
                                 <li><a href="#">Главная</a></li>
                                 <li><a href="#">Компания</a></li>
                                 <li><a href="#">Каталог</a></li>
@@ -54,133 +55,140 @@
                     </div>
                 </div>
             </div>
-    </header>
+        </header>
     
-    <main class="container">
-        <div class="materials">
-            <a class="header-materials">Материалы</a>
-            <a class="a-materials" href="#">НА ЛЮБОЙ ВКУС</a>
-        </div>
-        <div class="instruments">
-            <a class="header-materials">Инструмент</a>
-            <a class="a-intstruments" href="#">НА ВСЕ СЛУЧАИ</a>
-        </div>
-        <div class="equipments">
-            <a class="header-materials">Техника</a>
-            <a class="a-equipments" href="#">ДЛЯ СТРОЙКИ</a>
-        </div>
-        <div class="slider">
-            <a class="a-slider" href="#">ОТКРЫТЬ КАТАЛОГ</a>
-        </div>
-        <div class="discount">
-            <a class="header-materials">Скидки 50%</a>
-            <a class="a-discount" href="#">НА 350 ТОВАРОВ</a>
-        </div>
-        <div class="delivery">
-            <a class="header-materials">Доставка</a>
-            <a class="delivery" href="#">БЕСПЛАТНО</a>
-        </div>
-        
+        <main class="main-content">
+            <div class="container">
+                <ul class="ul-materials">
+                    <li>
+                        <span class="span-header-materials">Материалы</span>
+                        <a class="a-materials" href="#">НА ЛЮБОЙ ВКУС</a>
+                    </li>
+                    <li>
+                        <span class="span-header-materials">Инструмент</span>
+                        <a class="a-intstruments" href="#">НА ВСЕ СЛУЧАИ</a>
+                    </li>
+                    <li>
+                        <span class="span-header-materials">Техника</span>
+                        <a class="a-equipments" href="#">ДЛЯ СТРОЙКИ</a> 
+                    </li>
+                    <li>
+                        <h3 class="h3-perforators">Перфораторы</h3>
+                        <span class="span-perforators">Настоящие мужские игрушки</span>
+                        <a class="a-perforators" href="#">ОТКРЫТЬ КАТАЛОГ</a>
+                    </li>
+                    <li>
+                        <span class="span-header-materials">Скидки 50%</span>
+                        <a class="a-discount" href="#">НА 350 ТОВАРОВ</a> 
+                    </li>
+                    <li>
+                        <span class="span-header-materials">Доставка</span>
+                        <a class="a-delivery" href="#">БЕСПЛАТНО</a>
+                    </li>
+                </ul>
+            </div>
+    
+
+    
         <div class="popular-goods">
-            <div class="popular-goods-line">
-                <h2 class="h2-popular-goods">ПОПУЛЯРНЫЕ ТОВАРЫ:</h2>
-                <a class="popular-goods" href="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
-            </div>
-            <div class="popular-goods-one">
-                <img src="img/" width="220" height="180" alt="Популярные товары">
-                <b class="popular-goods-first"><br>Перфоратор BOSCH BFG 9000</b>
-                <a class="price-del"><br><del>32500 Р.</del></a>
-                <a class="price-new"><br>25500 Р.</a>
-            </div>
-            <div class="popular-goods-two">
-                <img src="img/" width="220" height="180" alt="Популярные товары">
-                <b class="popular-goods-first"><br>Перфоратор BOSCH BFG 3000</b>
-                <a class="price-del"><br><del>22500 Р.</del></a>
-                <a class="price-new"><br>15500 Р.</a>
-            </div>
-            <div class="popular-goods-three">
-                <img src="img/" width="220" height="180" alt="Популярные товары">
-                <b class="popular-goods-first"><br>Перфоратор BOSCH BFG 6000</b>
-                <a class="price-del"><br><del>30500 Р.</del></a>
-                <a class="price-new"><br>25500 Р.</a>
-            </div>
-            <div class="popular-goods-four">
-                <img src="img/" width="220" height="180" alt="Популярные товары">
-                <b class="popular-goods-first"><br>Перфоратор BOSCH BFG 2000</b>
-                <a class="price-new"><br>12500 Р.</a>
-            </div>
+            <div class="container">
+                <div class="popular-goods-line">
+                    <h3 class="h3-popular-goods">ПОПУЛЯРНЫЕ ТОВАРЫ:</h3>
+                    <a class="a-popular-goods" href="#">ВСЕ ПОПУЛЯРНЫЕ ТОВАРЫ</a>
+                </div>
+                <ul class="ul-popular-goods">
+                    <li>
+                        <img src="http://placehold.it/150x100" title="Перфоратор BOSCH BFG 9000" alt="Популярные товары">
+                        <span class="span-popular-goods"><br>Перфоратор BOSCH BFG 9000</span>
+                        <span class="price-del"><br><del>32500 Р.</del></span>
+                        <span class="price-new"><br>25500 Р.</span>
+                    </li>
+                    <li>
+                        <img src="http://placehold.it/150x100" title="Перфоратор BOSCH BFG 3000" alt="Популярные товары">
+                        <span class="span-popular-goods"><br>Перфоратор BOSCH BFG 3000</span>
+                        <span class="price-del"><br><del>22500 Р.</del></span>
+                        <span class="price-new"><br>15500 Р.</span>
+                    </li>
+                    <li>
+                        <img src="http://placehold.it/150x100" title="Перфоратор BOSCH BFG 6000" alt="Популярные товары">
+                        <span class="span-popular-goods"><br>Перфоратор BOSCH BFG 6000</span>
+                        <span class="price-del"><br><del>30500 Р.</del></span>
+                        <span class="price-new"><br>25500 Р.</span>
+                    </li>
+                    <li>
+                        <img src="http://placehold.it/150x100" title="Перфоратор BOSCH BFG 2000" alt="Популярные товары">
+                        <span class="span-popular-goods"><br>Перфоратор BOSCH BFG 2000</span>
+                        <span class="price-new"><br>12500 Р.</span>
+                    </li>
+                </ul>    
+            </div>    
         </div>
         
-        <div class="popular-manufacturer">
-            <div class="popular-manufacturer-line">
-                <h2 class="h2-popular-manufacturer">ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h2>
-                <a class="a-popular-manufacturer" href="#">Все производители:</a>
-            </div>
-            <div class="popular-manufacturer-one">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
-            <div class="popular-manufacturer-two">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
-            <div class="popular-manufacturer-three">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
-            <div class="popular-manufacturer-four">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
-            <div class="popular-manufacturer-five">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
-            <div class="popular-manufacturer-six">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
-            <div class="popular-manufacturer-seven">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
-            <div class="popular-manufacturer-eight">
-                <img src="img/" width="220" height="145" alt="Популярные производители">
-            </div>
+        <div class="popular-brands">
+            <div class="container">
+                <div class="popular-brands-line">
+                    <h3 class="h3-popular-brands">ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h3>
+                    <a class="a-popular-brands" href="#">Все производители:</a>
+                </div>
+                <ul class="ul-popular-brands">
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                    <li><img src="http://placehold.it/150x100" alt="Популярные производители"></li>
+                </ul>
+            </div>    
         </div>
-     
+    </main> 
+    
     <div class="services-and-delivery">
         <div class="container">
             <div class="delivery">
                 <div class="services">
-                    <b class="b-services">Сервисы</b>
+                    <span class="span-services">Сервисы</span>
                     <p class="p-services">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
                 </div>
                 <div class="services-and-delivery-menu">
-                    <button class="btn delivery">Доставка</button>
-                    <button class="btn guarantee">Гарантия</button>
-                    <button class="btn credit">Кредит</button>
+                    <ul class="ul-services-and-delivery-menu">
+                        <li><a class="a-delivery" href="#">Доставка</a></li>
+                        <li><a class="a-guarantee" href="#">Гарантия</a></li>
+                        <li><a class="a-credit" href="#">Кредит</a></li>
+                    </ul>    
                 </div>
                 <div class="delivery-info">
-                    <b class="b-delivery">Доставка</b>
+                    <span class="span-delivery">Доставка</span>
                     <p class="p-delivery">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, </p>
                 </div>
                 <div class="img-delivery">
-                    <img src="img/" width="470" height="260" alt="Доставка">
+                    <img src="http://placehold.it/150x100" alt="Доставка">
                 </div>
             </div> 
-            
+        </div>     
+    </div>
+    
 <!--------------------------------------------------------------------------------------------------------------------------------------------->            
             <!--  Блок "services-and-delivery" раздел "Гарантия" 
             <div class="guarantee">
                 <div class="services">
-                    <b class="b-services">Сервисы</b>
+                    <span class="span-services">Сервисы</span>
                     <p class="p-services">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
                 </div>
                 <div class="services-and-delivery-menu">
-                    <button class="btn delivery">Доставка</button>
-                    <button class="btn guarantee">Гарантия</button>
-                    <button class="btn credit">Кредит</button>
+                    <ul class="ul-services-and-delivery-menu">
+                        <li><a class="a-delivery" href="#">Доставка</a></li>
+                        <li><a class="a-guarantee" href="#">Гарантия</a></li>
+                        <li><a class="a-credit" href="#">Кредит</a></li>
+                    </ul>    
                 </div>
                 <div class="guarantee-info">
-                    <b class="b-guarantee">Гарантия</b>
+                    <span class="span-guarantee">Гарантия</span>
                     <p class="p-guarantee">Если купленный у нас товар поломается или заискрит,а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
                 </div>
                 <div class="img-guarantee">
-                    <img src="img/" width="390" height="283" alt="Гарантия">
+                    <img src="http://placehold.it/150x100" alt="Гарантия">
                 </div>
             </div>  -->
             
@@ -193,50 +201,100 @@
                     <p class="p-services">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
                 </div>
                 <div class="services-and-delivery-menu">
-                    <button class="btn delivery">Доставка</button>
-                    <button class="btn guarantee">Гарантия</button>
-                    <button class="btn credit">Кредит</button>
+                    <ul class="ul-services-and-delivery-menu">
+                        <li><a class="a-delivery" href="#">Доставка</a></li>
+                        <li><a class="a-guarantee" href="#">Гарантия</a></li>
+                        <li><a class="a-credit" href="#">Кредит</a></li>
+                    </ul>    
                 </div>
                 <div class="credit-info">
-                    <b class="b-credit">Кредит</b>
+                    <span class="span-credit">Кредит</span>
                     <p class="p-credit">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
                     <a class="send-request href"#">Отправить заявку</a>
                 </div>
                 <div class="img-credit">
-                    <img src="img/" width="470" height="287" alt="Кредит">
+                    <img src="http://placehold.it/150x100" alt="Кредит">
                 </div>
             </div>  -->
             
 <!--------------------------------------------------------------------------------------------------------------------------------------------->
-        </div>     
-    </div>
+        
         
     <div class="about">
         <div class="container">
             <div class="company-tehnomart">
-                <b class="b-company-tehnomart">КОМПАНИЯ "ТЕХНОМАРТ"</b>
+                <h3 class="h3-company-tehnomart">КОМПАНИЯ "ТЕХНОМАРТ"</h3>
                 <p class="p-company-tehnomart">Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.
 
                 Мы можем доставить ваш товар в самые отдаленные точки России!
                 Техномарт работает со многими транспортными компаниями: </p>
-                <ul>
+                <ul class="ul-about">
                     <li>Деловые линии</li>
                     <li>Автотрейдинг</li>
                     <li>ЖелДорЭкспедиция</li>
                 </ul>
                 <a class="about-company" href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
+            </div>  
+            <div class="contacts">
+                <h3 class="h3-contacts">КОНТАКТЫ</h3>
+                <span class="span-contacts">Вы можете забрать товар сами,заехав в наш офис:</span>
+                <img src="http://placehold.it/150x100" alt="Наш офис">
+                <a class="write-to-us" href="#"><br>ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
             </div>
-        <div class="contacts">
-            <b class="b-contacts">КОНТАКТЫ</b>
-            <a class="a-contacts">Вы можете забрать товар сами,заехав в наш офис:</a>
-            <img src="img/" width="300" height="160" alt="Наш офис">
-            <a class="write-to-us" href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
-        </div>
         </div>
     </div>  
-        
-        
-    </main> 
     
+    <footer>
+        <div class="first-footer">
+            <div class="container">
+                <h2 class="h2-footer-logo">ТЕХНОМАРТ</h2>
+                <section class="first-footer-info">
+                    <address class="footer-adress-number" itemprop="address">
+                        <span class="city" itemprop="addressLocality">г. Санкт-Петербург,</span>
+                        <span class="streer" itemprop="streetAddress">ул. Б. Конюшенная, д. 19/8</span>
+                        <span class="number" itemprop="telephone"><br>+7 (812) 555-05-55</span>
+                    </address>
+                </section> 
+                <nav class="first-footer-nav-one">
+                    <ul class="ul-footer-first-menu">
+                        <li><a href="#">Компания</a></li>
+                        <li><a href="#">Новости</a></li>
+                        <li><a href="#">Каталог</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Контакты</a></li>
+                    </ul>
+                </nav>
+                <nav class="first-footer-nav-two">
+                    <ul class="ul-footer-second-menu">
+                        <li><a href="#">Материалы</a></li>
+                        <li><a href="#">Техника</a></li>
+                        <li><a href="#">Инструмент</a></li>
+                        <li><a href="#">Спецпредложения</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="second-footer">
+            <div class="container">
+                <section class="second-footer-copyright">
+                    <span class="span-second-footer-copyright">© 2010–2016 Компания «Техномарт»</span>
+                    <span class="span-second-footer-copyright"><br>Все права защищены</span>
+                </section>
+                <section class="second-footer-social">
+                    <a class="social-btn-vkontakte" href="#"></a>
+                    <a class="social-btn-facebook" href="#"></a>
+                    <a class="social-btn-instagram" href="#"></a>
+                </section>
+                <section class="feedback-designed">
+                    <span class="span-feedback">Обратная связь:</span>
+                    <a class="a-feedback" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+                    <span class="span-designed">азработано —</span>
+                    <a class="a-designed" href="htmlacademy.ru">htmlacademy.ru</a>
+                </section>
+            </div>
+        </div>    
+    </footer>
+        
 </body>
 </html>
