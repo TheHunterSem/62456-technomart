@@ -1,6 +1,6 @@
 body {
-    margin: 0;
-    padding: 0;
+    min-width: 960px;
+    font-family: "Cuprum", "PT Sans";
 }
 
 .top-navigator-line {
@@ -28,12 +28,14 @@ body {
 
 .logo {
     display: block;
-    width: 180px;
+    width: 166px;
     height: 34px;
     margin-top: 0px;
     padding-top: 8px;
-    padding-left: 20px;
+    padding-left: 54px;
     border-bottom: 5px solid #b52933;
+    font-family: "Cuprum";
+    font-size: 24px;
     float: left;
     color: #ffffff;
     background-color: #ee3643;
@@ -50,6 +52,7 @@ input[type=search] {
     background-color: #293449;
     border-color: #293449;
     font-size: 17px;
+    font-family: "Cuprum";
     color: #ffffff;
 }
 
@@ -67,6 +70,7 @@ input[type=search] {
     padding-right: 22px;
     padding-top: 9px;
     font-size: 17px;
+    font-family: "Cuprum";
     color: #ffffff;
     text-decoration: none;
 }
@@ -108,9 +112,10 @@ input[type=search] {
 
 .main-info {
     float: left;
-    margin-top: 0;
-    width: 645px;
-    height: 115px;
+    padding: 0;
+    margin-top: -25px;
+    width: 612px;
+    height: 122px;
     display: table;
     clear: both;
 }
@@ -118,12 +123,12 @@ input[type=search] {
 .main-left-info {
     display: block;
     float: left;
-    margin-left: 52px;
-    margin-top: 28px;
-    width: 200px;
-    height: 63px;
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 202px;
+    height: 68px;
     font-size: 16px;
-    font-weight: bold;
+    font-family: "Cuprum";
     font-style: italic;
     color: #ee3643;
 }
@@ -131,51 +136,56 @@ input[type=search] {
 .main-right-info-address {
     display: block;
     float: left;
-    margin-top: 26px;
-    margin-left: 69px;
-    width: 317px;
+    margin-top: 45px;
+    margin-left: 68px;
+    width: 290px;
     height: 70px;
 }
 
 .number {
     display: block;
     float: left;
-    width: 263px;
-    height: 39px;
+    padding-left: 66px;
+    padding-top: 7px;
+    width: 198px;
+    height: 30px;
     color: #e9292a;
     font-size: 21px;
     font-style: normal;
-    font-weight: bold;
+    font-family: "Cuprum";
     border: 4px solid #ffffff;
 }
 
 .address {
     display: block;
     float: left;
-    margin-top: 9px;
-    width: 263px;
-    height: 39px;
-    font-size: 12px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-top: 5px;
+    margin-left: 13px;
+    width: 253px;
+    height: 15px;
+    font-size: 14px;
     color: #32425c;
     font-style: normal;
-    font-weight: bold;
-    margin-left: 10px;
+    font-family: "Cuprum";
 }
 
 .user-block {
     float: right;
+    margin-top: 20px;
     width: 284px;
-    height: 54px;
-    margin-top: 26px;
+    height: 52px;
 }
 
 .user-block a {
     display: block;
     float: right;
-    margin-left: 10px;
+    margin-left: 7px;
     padding: 13px 24px;
     text-decoration: none;
     font-size: 21px;
+    font-family: "Cuprum";
     color: #000000;
     background-color: #ffffff;
 }
@@ -192,7 +202,8 @@ input[type=search] {
 .main-navigation {
     float: left;
     width: 940px;
-    margin-top: -15px;
+    height: 60px;
+    margin-top: 42px;
 }
 
 .main-navigation ul {
@@ -200,21 +211,24 @@ input[type=search] {
     padding: 0;
     list-style: none;
     font-size: 0;
+    margin-left: 2px;
 }
 
 .main-navigation li {
     display: inline-block;
-    margin-top: 42px;
-    font-size: 17px;
-    line-height: 20px;
 }
 
 .main-navigation a {
     display: block;
-    text-decoration: none;
-    padding: 20px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 34px;
+    padding-right: 33px;
     color: #ffffff;
+    font-family: "Cuprum";
+    text-decoration: none;
     background-color: #32425c;
+    font-size: 17px;
     border-bottom: 5px solid #293449;
 }
 
@@ -224,4 +238,30 @@ input[type=search] {
 
 .main-navigation a:active {
     background: #1d2739;
+}
+
+.materials {
+    width: 940px;
+    height: 416px;
+    margin-top: 56px;
+    border: 1px solid red;
+}
+
+.materials ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.materials li {
+    display: inline-block;
+    
+}
+
+.materials a {
+    display: block;
+    float: left;
+    width: 300px;
+    height: 122px;
+    border: 1px solid green;
 }
