@@ -37,7 +37,6 @@ body {
     padding-top: 8px;
     padding-left: 54px;
     border-bottom: 5px solid #b52933;
-    font-family: "Cuprum";
     font-size: 24px;
     float: left;
     color: #ffffff;
@@ -55,7 +54,6 @@ body {
     background-color: #293449;
     border-color: #293449;
     font-size: 17px;
-    font-family: "Cuprum";
     color: #ffffff;
 }
 
@@ -72,7 +70,6 @@ body {
     height: 33px;
     padding-top: 9px;
     font-size: 17px;
-    font-family: "Cuprum";
     color: #ffffff;
     text-decoration: none;
 }
@@ -136,23 +133,23 @@ body {
     opacity: 0.5;
 }
 
-.curt::before {
+.cart::before {
     content: "";
     position: absolute;
     top: 6px;
     left: 180px;
     width: 20px;
     height: 20px;
-    background: transparent url("../img/icons/icon-curt.png") no-repeat;
+    background: transparent url("../img/icons/icon-cart.png") no-repeat;
     background-position: 0px 5px;
     opacity: 0.3;
 }
 
-.curt:hover::before {
+.cart:hover::before {
     opacity: 1;
 }
 
-.curt:active::before {
+.cart:active::before {
     opacity: 0.5;
 }
 
@@ -179,7 +176,6 @@ body {
     width: 202px;
     height: 68px;
     font-size: 16px;
-    font-family: "Cuprum";
     font-style: italic;
     color: #ee3643;
 }
@@ -204,7 +200,6 @@ body {
     color: #e9292a;
     font-size: 21px;
     font-style: normal;
-    font-family: "Cuprum";
     border: 4px solid #ffffff;
 }
 
@@ -231,7 +226,6 @@ body {
     font-size: 14px;
     color: #32425c;
     font-style: normal;
-    font-family: "Cuprum";
 }
 
 .user-block {
@@ -248,7 +242,6 @@ body {
     margin-left: 7px;
     text-decoration: none;
     font-size: 21px;
-    font-family: "Cuprum";
     color: #000000;
     background-color: #ffffff;
 }
@@ -352,9 +345,7 @@ body {
 
 .materials {
     width: 941px;
-    height: 460px;
     margin-top: 56px;
-    
 }
 
 .materials ul {
@@ -364,24 +355,40 @@ body {
 }
 
 .materials li {
-    display: block;
+    position: relative;
+    display: inline-block;
     float: left;
+    padding-top: 20px;
+    padding-left: 22px;
     margin-left: 20px;
-    width: 300px;
-    height: 122px;
+    width: 278px;
+    height: 102px;
+    color: #ffffff;
+    font-size: 24px;
 }
 
 .materials a {
     display: block;
-    margin-top: 61px;
-    margin-left: 24px;
-    width: 135px;
-    height: 38px;
+    width: 112px;
+    margin-top: 14px;
+    margin-left: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 23px;
     text-decoration: none;
     background-color: #ffffff;
-    opacity: 0.1;
-    font-family: "Cuprum";
     font-size: 14px;
+    border-radius: 3px;
+    opacity: 0.4;
+}
+
+.materials a:hover {
+    opacity: 0.6;
+}
+
+.materials a:active {
+    color: black;
+    opacity: 0.8;
 }
 
 .materials li:nth-child(1) {
@@ -400,8 +407,8 @@ body {
 .materials li:nth-child(4) {
     margin-left: 0;
     margin-top: 20px;
-    width: 621px;
-    height: 264px;
+    width: 598px;
+    height: 244px;
     background-color: #ee3643;
 }
 
@@ -413,4 +420,64 @@ body {
 .materials li:nth-child(6) {
     margin-top: 20px;
     background-color: #f6b22d;
+}
+
+.material-1::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    right: 42px;
+    width: 48px;
+    height: 68px;
+    background: transparent url("../img/icons/icon-material-1.png") no-repeat;
+}
+
+.::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    background: transparent url("../img/icons/icon-new.png") no-repeat;
+}
+
+.material-2::before {
+    content: "";
+    position: absolute;
+    top: 32px;
+    right: 27px;
+    width: 78px;
+    height: 64px;
+    background: transparent url("../img/icons/icon-material-2.png") no-repeat;
+}
+
+.material-3::before {
+    content: "";
+    position: absolute;
+    top: 27px;
+    right: 30px;
+    width: 78px;
+    height: 64px;
+    background: transparent url("../img/icons/icon-material-3.png") no-repeat;
+}
+
+.material-5::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    right: 44px;
+    width: 62px;
+    height: 72px;
+    background: transparent url("../img/icons/icon-material-5.png") no-repeat;
+}
+
+.material-6::before {
+    content: "";
+    position: absolute;
+    top: 31px;
+    right: 30px;
+    width: 80px;
+    height: 66px;
+    background: transparent url("../img/icons/icon-material-6.png") no-repeat;
 }
