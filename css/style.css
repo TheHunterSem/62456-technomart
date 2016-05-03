@@ -1,6 +1,6 @@
 body {
     min-width: 960px;
-    font-family: "Cuprum", "PT Sans";
+    font-family: "Cuprum", "PTSans";
 }
 
 .top-navigator-line {
@@ -341,7 +341,7 @@ body {
 }
 
 
-/*КОНТЕНТ*/
+/*МАТЕРИАЛЫ*/
 
 .materials {
     width: 941px;
@@ -480,4 +480,177 @@ body {
     width: 80px;
     height: 66px;
     background: transparent url("../img/icons/icon-material-6.png") no-repeat;
+}
+
+
+/*ПОПУЛЯРНЫЕ ТОВАРЫ*/
+
+.popular-goods-line {
+    position: relative;
+    height: 90px;
+    width: 940px;
+    margin-top: 53px;
+    background-color: #f7f3ec;
+}
+
+.popular-goods-line a {
+    display: block;
+    position: absolute;
+    top: 25px;
+    right: 24px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-right: 54px;
+    padding-left: 54px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #ee3643;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.popular-goods-line a:hover {
+    background-color: #ca2c37;
+}
+
+.popular-goods-line a:active {
+    background-color: #ba2732;
+}
+
+.popular-goods-line h3 {
+    display: block;
+    position: absolute;
+    top: 28px;
+    left: 30px;
+    margin: 0;
+    font-size: 30px;
+    color: #32425c;
+}
+
+.popular-goods-items {
+    position: relative;
+    margin-top: 20px;
+}
+
+.popular-goods-item {
+    float: left;
+    width: 218px;
+    height: 320px;
+    border: 1px solid #e5e5e5;
+}
+
+.popular-goods-item:nth-child(2),
+.popular-goods-item:nth-child(3) {
+    margin-left: 19px;
+}
+
+.popular-goods-item:nth-child(4) {
+    float: right;
+}
+
+.popular-goods-items::before {
+    content: "";
+    position: absolute;
+    top: 1px;
+    right: 0px;
+    width: 60px;
+    height: 60px;
+    background: transparent url("../img/icons/icon-new.png") no-repeat;
+}
+
+.goods-img-item1 {
+    margin-left: 15px;
+}
+
+.goods-img-item2 {
+    margin-left: 38px;
+    margin-top: 25px;
+}
+
+.goods-img-item3 {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.goods-img-item4 {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.popular-goods-name1 {
+    display: block;
+    text-align: center;
+    width: 160px;
+    height: 37px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.popular-goods-name2 {
+    display: block;
+    text-align: center;
+    width: 160px;
+    height: 37px;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.popular-goods-name3 {
+    display: block;
+    text-align: center;
+    width: 160px;
+    height: 37px;
+    margin-top: 28px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.popular-goods-name4 {
+    display: block;
+    text-align: center;
+    width: 160px;
+    height: 37px;
+    margin-top: 29px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.empty-price {
+    margin-top: 27px;
+    height: 15px;
+}
+
+.price-del {
+    display: block;
+    font-size: 17px;
+    text-align: center;
+    color: #999999;
+}
+
+.price-new {
+    display: inline-block;
+    position: relative;
+    background-color: #ee3643;
+    height: 40px;
+    width: 122px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 42px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+
+.price-new::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -40px;
+    border: 20px solid transparent;	border-left: 20px solid #ee3643;
 }
