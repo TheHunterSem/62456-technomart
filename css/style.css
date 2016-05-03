@@ -1,6 +1,6 @@
 body {
     min-width: 960px;
-    font-family: "Cuprum", "PTSans";
+    font-family: "Cuprum", "PTSans", sans-serif;
 }
 
 .top-navigator-line {
@@ -654,3 +654,79 @@ body {
     right: -40px;
     border: 20px solid transparent;	border-left: 20px solid #ee3643;
 }
+
+.popular-brands-line {
+    position: relative;
+    height: 88px;
+    margin-top: 20px;
+    background-color: #f7f3ec;
+}
+
+.popular-brands-header {
+    display: block;
+    position: absolute;
+    left: 25px;
+    top: -2px;
+    font-size: 30px;
+    color: #32425c;
+}
+
+.popular-brands-all {
+    display: block;
+    float: right;
+    margin-top: 22px;
+    margin-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: #ee3643;
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.popular-brands-all:hover {
+    background-color: #ca2c37;
+}
+
+.popular-brands-all:active {
+    background-color: #ba2732;
+}
+
+.popular-brands-container {
+    width: 940px;
+    margin-top: 20px;
+}
+
+.brands {
+    position: relative;
+    float: left;
+    width: 218px;
+    height: 143px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #e7e7e7;
+}
+
+.brands:nth-child(1) {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.brands:nth-child(2),
+.brands:nth-child(3),
+.brands:nth-child(4) {
+    margin-top: 0;
+}
+
+.brands:nth-child(5) {
+    margin-left: 0;
+}
+
+.popular-brands-container img:nth-child(6) {
+    margin-top: 54px;
+}
+
+
