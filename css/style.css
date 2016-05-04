@@ -814,3 +814,114 @@ body {
     margin-top: -165px;
     
 }
+
+.company-contacts {
+    position: relative;
+}
+
+.company-tehnomart {
+    line-height: 24px;
+    width: 530px;
+    font-size: 13px;
+}
+
+.company-tehnomart-header {
+    position: relative;
+    display: block;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.company-tehnomart ul {
+    list-style: none;
+}
+
+.company-tehnomart li {
+    display: block;
+    padding: 12px 12px;
+    font-size: 18px;
+}
+
+.about-company {
+    display: block;
+    margin-top: 25px;
+    width: 160px;
+    padding: 13px 40px;
+    color: #fff;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #ee3643;
+}
+
+.about-company:hover {
+    background-color: #ca2c37;
+}
+
+.about-company:active {
+    background-color: #ba2732;
+}
+
+.contacts {
+    position: absolute;
+    content: '';
+    top: 8px;
+    right: 0px;
+    width: 315px;
+    line-height: 24px;
+    font-size: 13px;
+}
+
+.contacts-header {
+    display: block;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.write-to-us {
+    display: block;
+    float: right;
+    margin-top: -42px;
+    margin-bottom: 20px;
+    margin-right: 12px;
+    width: 203px;
+    padding: 13px 49px;
+    color: #fff;
+    border-radius: 2px;
+    text-decoration: none;
+    background-color: #ee3643;
+}
+
+.write-to-us:hover {
+    background-color: #ca2c37;
+}
+
+.write-to-us:active {
+    background-color: #ba2732;
+}
+
+.dash1 {
+    position: absolute;
+    top: 198px;
+    left: 13px;
+    width: 25px;
+    height: 2px;
+    background-color: #fb565a;
+}
+
+.dash2 {
+    position: absolute;
+    top: 246px;
+    left: 13px;
+    width: 25px;
+    height: 2px;
+    background-color: #fb565a;
+}
+
+.dash3 {
+    position: absolute;
+    top: 294px;
+    left: 13px;
+    width: 25px;
+    height: 2px;
+    background-color: #fb565a;
+}
