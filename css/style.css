@@ -925,3 +925,78 @@ body {
     height: 2px;
     background-color: #fb565a;
 }
+
+.map {
+    display: none;
+}
+
+.first-footer {
+    margin-top: 57px;
+    background-color: #32425c;
+}
+
+.first-footer-nav-one ul {
+    list-style: none;
+    float: right;
+}
+
+.first-footer-nav-one li {
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.first-footer-nav-one a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #f1f5f7;
+}
+
+.first-footer-nav-one a:hover {
+    text-decoration: underline;
+}
+
+.first-footer-nav-one a:active {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.first-footer-nav-two ul {
+    list-style: none;
+    float: right;
+}
+
+.first-footer-nav-two li {
+    display: inline-block;
+    padding-left: 60px;
+}
+
+.first-footer-nav-two a {
+    display: block;
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffd180;
+}
+
+.first-footer-nav-two a:hover {
+    text-decoration: underline;
+}
+
+.first-footer-nav-two a:active {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.first-footer-info {
+    float: left;
+    width: 330px;
+    height: 50px;
+    color: #f1f5f7;
+    font-size: 18px;
+    margin-top: -35px;
+    margin-bottom: 50px;
+}
+
+.second-footer {
+    background-color: #293449;
+}
