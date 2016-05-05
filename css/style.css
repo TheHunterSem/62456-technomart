@@ -432,16 +432,6 @@ body {
     background: transparent url("../img/icons/icon-material-1.png") no-repeat;
 }
 
-.::before {
-    content: "";
-    position: absolute;
-    top: 1px;
-    right: 0px;
-    width: 60px;
-    height: 60px;
-    background: transparent url("../img/icons/icon-new.png") no-repeat;
-}
-
 .material-2::before {
     content: "";
     position: absolute;
@@ -541,6 +531,10 @@ body {
     border: 1px solid #ccc;
 }
 
+.pop-goods-item:hover {
+    box-shadow: 0 10px 20px rgba(41,52,73,0.5);
+}
+
 .pop-goods-item:nth-child(1) {
     margin-left: 0;
 }
@@ -591,6 +585,53 @@ body {
   color: #63a63e;
   border: 3px solid #63a63e;
   background-color: #fff;
+}
+
+.buy::before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    background: transparent url('../img/icons/icon-cart.png') no-repeat;
+    opacity: 0.3;
+}
+
+.buy:hover::before {
+    position: absolute;
+    content: '';
+    top: 10px;
+    left: 15px;
+    width: 20px;
+    height: 20px;
+    background: transparent url('../img/icons/icon-cart.png') no-repeat;
+    opacity: 1;
+}
+
+
+.buy:hover {
+    background-color: #5fbb2d;
+}
+
+.buy:active {
+    background-color: #518534;
+    box-shadow: none;
+}
+
+.bookmark:hover {
+    border-color: #32425c;
+    color: #32425c;
+}
+
+.bookmark:active {
+    border-color: #32425c;
+    color: #32425c;
+    opacity: 0.3;
+}
+
+.actions a {
+    position: relative;
 }
 
 .pop-goods-item .actions {
@@ -704,6 +745,14 @@ body {
     margin-left: 20px;
     margin-top: 20px;
     border: 1px solid #e7e7e7;
+}
+
+.brands:hover {
+    box-shadow: 0 10px 25px rgba(41,52,73,0.5);
+}
+
+.brands:active {
+    box-shadow: 0 4px 10px rgba(41,52,73,0.5);
 }
 
 .brands:nth-child(1) {
@@ -998,5 +1047,134 @@ body {
 }
 
 .second-footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
     background-color: #293449;
+}
+
+.copyright {
+    float: left;
+    width: 230px;
+    height: 40px;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.social {
+    float: left;
+    width: 150px;
+    margin-left: 140px;
+}
+
+.social a {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    width: 43px;
+    height: 43px;
+}
+
+.social-btn-vk::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    width: 43px;
+    height: 43px;
+    background: transparent url('../img/icons/icon-vk.png') no-repeat;
+}
+
+.social-btn-vk:hover::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    width: 43px;
+    height: 43px;
+    background: transparent url('../img/icons/icon-vk-h-a.png') no-repeat;
+}
+
+.social-btn-fb::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    width: 43px;
+    height: 43px;
+    background: transparent url('../img/icons/icon-fb.png') no-repeat;
+}
+
+.social-btn-fb:hover::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    width: 43px;
+    height: 43px;
+    background: transparent url('../img/icons/icon-fb-h-a.png') no-repeat;
+}
+
+.social-btn-inst::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    width: 43px;
+    height: 43px;
+    background: transparent url('../img/icons/icon-inst.png') no-repeat;
+}
+
+.social-btn-inst:hover::before {
+    position: absolute;
+    content: '';
+    top: 0px;
+    width: 43px;
+    height: 43px;
+    background: transparent url('../img/icons/icon-inst-h-a.png') no-repeat;
+}
+
+.feedback {
+    float: left;
+    width: 150px;
+    margin-left: 110px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.feedback a {
+    text-decoration: none;
+    color: #ffd180;
+    font-weight: bold;
+}
+
+.feedback a:hover {
+    text-decoration: underline;
+}
+
+.feedback a:active {
+    text-decoration: none;
+    color: #ee3643;
+}
+
+.designed {
+    float: left;
+    width: 110px;
+    margin-left: 42px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.designed a {
+    text-decoration: none;
+    color: #ffd180;
+    font-weight: bold;
+}
+
+.designed a:hover {
+    text-decoration: underline;
+}
+
+.designed a:active {
+    text-decoration: none;
+    color: #ee3643;
 }
