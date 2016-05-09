@@ -55,7 +55,7 @@ body {
 .icon-user::before { content: "👨"; } /* "\1f468" */
 .icon-phone::before { content: "📞"; } /* "\1f4de" */
 .icon-instagramm::before { content: "📷"; } /* "\1f4f7" */
-.icon-search::before { content: "🔍"; } /* "\1f50d" */
+.icon-search::before { content: "\1f50d"; } /* "\1f50d" */
 .icon-bookmark::before { content: "🔖"; } /* "\1f516" */
 
 
@@ -100,7 +100,7 @@ body {
 }
 
 .search {
-    display: inline-block;
+    display: block;
     float: left;
     margin-left: 48px;
     margin-top: 5px;
@@ -111,6 +111,22 @@ body {
     border-color: #293449;
     font-size: 17px;
     color: #ffffff;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-container::before {
+    font-family: "symbols-technomart";
+    position: absolute;
+    content: "\1f50d";
+    top: 12px;
+    left: 240px;
+    width: 17px;
+    height: 17px;
+    font-size: 17px;
+    color: #81868f;
 }
 
 .top-navigation-menu {
@@ -605,13 +621,10 @@ body {
     color: #32425c;
 }
 
-.pop-goods-items {
-  margin: 20px auto; /* для оформления демонстрации */
-}
-
 .pop-goods-item {
     float: left;
     margin-left: 20px;
+    margin-top: 20px;
     font-weight: 600;
     position: relative;
     width: 218px;
@@ -1455,6 +1468,7 @@ body {
 }
 
 .filter-container{
+    float: left;
     width: 222px;
 }
 
@@ -1558,14 +1572,14 @@ body {
 
 .filter-header-producers {
     margin-top: 17px;
-    margin-bottom: 0;
+    margin-bottom: 6px;
 }
 
-input[type="checkbox"] {
+.ch {
     display: none;
 }
 
-input[type="checkbox"] + label {
+.ch + label {
     display: block;
     position: relative;
     cursor: pointer;
@@ -1576,7 +1590,7 @@ input[type="checkbox"] + label {
     font-size: 15px;
 }
 
-input[type="checkbox"] + label::before {
+.ch + label::before {
     font-family: "symbols-technomart";
     content: "\2610";
     position: absolute;
@@ -1588,7 +1602,7 @@ input[type="checkbox"] + label::before {
     color: #c1c1c1;
 }
 
-input[type="checkbox"] + label:hover::before {
+.ch + label:hover::before {
     font-family: "symbols-technomart";
     content: "\2610";
     position: absolute;
@@ -1600,7 +1614,7 @@ input[type="checkbox"] + label:hover::before {
     color: #b5b5b5;
 }
 
-input[type="checkbox"] + label:active::before {
+.ch + label:active::before {
     font-family: "symbols-technomart";
     content: "\2610";
     position: absolute;
@@ -1613,7 +1627,234 @@ input[type="checkbox"] + label:active::before {
     opacity: 0.3;
 }
 
-input[type="checkbox"]:checked + label::before {
+.ch:checked + label::before {
     font-family: "symbols-technomart";
     content: "\2611";
+}
+
+.filter-header-power {
+    margin-bottom: 7px;
+}
+
+.rd {
+    display: none;
+}
+
+.rd + label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.rd + label::before {
+    font-family: "symbols-technomart";
+    content: "\25cb";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    color: #c1c1c1;
+}
+
+.rd + label:hover::before {
+    font-family: "symbols-technomart";
+    content: "\25cb";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    color: #b5b5b5;
+}
+
+.rd + label:active::before {
+    font-family: "symbols-technomart";
+    content: "\25cf";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 28px;
+    height: 28px;
+    font-size: 28px;
+    color: #b5b5b5;
+    opacity: 0.3;
+}
+
+.rd:checked + label::before {
+    font-family: "symbols-technomart";
+    content: "\25cf";
+}
+
+.show-btn {
+    margin-top: 80px;
+    padding: 13px 37px;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;;
+    background-color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.sorting-line {
+    float: left;
+    margin-left: 18px;
+    width: 700px;
+    border-radius: 3px;
+    background-color: #f7f3ec;
+}
+
+.sorting-header {
+    float: left;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 19px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.sorting-line ul {
+    list-style: none;
+
+    padding: 0;
+    margin: 0;
+}
+
+.sorting-line li {
+    display: inline-block;
+    margin-top: 13px;
+    margin-left: 170px;
+}
+
+.sorting-line li:nth-child(2) {
+    margin-left: 90px;
+}
+
+.sorting-line li:nth-child(3) {
+    margin-left: 65px;
+}
+
+.sorting a {
+    font-size: 13px;
+    line-height: 18px;
+    color: #cbc8c2;
+    text-decoration: none;
+    border-bottom: 1px dotted #ee3643;
+}
+
+.sorting a:hover {
+    color: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.sort-active a {
+    color: #ee3643;
+    border-bottom: none;
+}
+
+.up-down-dir {
+    float: right;
+    margin-top: -18px;
+    width: 60px;
+}
+
+.up-down-dir a {
+    display: block;
+    text-decoration: none;
+    border: none;
+}
+
+.up-dir {
+    float: left;
+    line-height: 20px;
+}
+
+.up-dir a::before {
+    font-family: "symbols-technomart";
+    content: "\25b2";
+    font-size: 23px;
+    color: #c6c2bd;
+}
+
+.down-dir {
+    float: left;
+    line-height: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.down-dir a:before {
+    font-family: "symbols-technomart";
+    content: "\25bc";
+    font-size: 23px;
+    color: #c6c2bd;
+}
+
+.content {
+    float: left;
+    width: 700px;
+    margin-left: 16px;
+}
+
+
+.indent {
+    margin-left: 0;
+    margin-top: 20px;
+}
+
+.pages {
+    float: left;
+    margin-top: 52px;
+}
+
+.pages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.pages li {
+    display: inline-block;
+}
+
+.pages a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-left: 10px;
+    border: 1px solid #e5e5e5;
+    border-radius: 3px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.pages li:first-child a {
+    margin-left: 0;
+}
+
+.pages li:last-child a {
+    padding: 12px 31px;
+}
+
+.pages a:hover {
+    border-color: #bdc6ca;
+}
+
+.pages a:active {
+    border-color: #ee3643;
+}
+
+.page-active a {
+    color: #fef5f6;
+    background-color: #ee3643;
+    border-radius: 3px;
 }
