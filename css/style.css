@@ -1052,6 +1052,115 @@ body {
     background-color: #ba2732;
 }
 
+.write-to-us-block {
+    display: none;
+    position: fixed;
+    top: 100px;
+    left: 350px;
+    width: 620px;
+    background-color: #ffffff;
+}
+
+.write-to-us-show {
+    display: block;
+}
+
+.top-line {
+    background-color: #ee3643;
+    height: 7px;
+}
+
+.write-to-us-block section {
+    float: left;
+    margin-left: 80px;
+    margin-top: 45px;
+    width: 462px;
+}
+
+.your-name {
+    float: left;
+    width: 220px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.your-name input {
+    font-size: 13px;
+    margin-top: 13px;
+    width: 205px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    line-height: 18px;
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
+}
+
+.your-email {
+    float: left;
+    width: 220px;
+    margin-left: 20px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.your-email input {
+    font-size: 13px;
+    margin-top: 13px;
+    width: 205px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    line-height: 18px;
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
+}
+
+.text-message {
+    float: left;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.text-message textarea {
+    margin-top: 13px;
+    width: 445px;
+    padding-top: 12px;
+    padding-bottom: 90px;
+    padding-left: 15px;
+    font-size: 13px;
+    line-height: 18px;
+    border: 2px solid #d7dcde;
+    border-radius: 3px;
+}
+
+.write-to-us-submit {
+    float: left;
+    margin-left: 0;
+    margin-top: 37px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    width: 620px;
+    background-color: #f1f1f1;
+}
+
+.write-to-us-submit input {
+    background-color: #ee3643;
+    padding: 13px 200px;
+    margin-left: 81px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.write-to-us-block a {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
 .dash1 {
     position: absolute;
     top: 198px;
