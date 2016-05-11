@@ -205,70 +205,44 @@
                 </div>
                 <div class="services-and-delivery-menu">
                     <ul>
-                        <li><a  href="#">Доставка</a></li>
-                        <li><a  href="#">Гарантия</a></li>
-                        <li><a  href="#">Кредит</a></li>
+                        <li><a class="services-btn1 showservices" href="#">Доставка</a></li>
+                        <li><a class="services-btn2" href="#">Гарантия</a></li>
+                        <li><a class="services-btn3" href="#">Кредит</a></li>
                     </ul>    
                 </div>
-                <div class="delivery-info">
+
+                <div class="tab-content1">
                     <h4>Доставка</h4>
                     <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш на этаж! 
                     </p>
+                    <div class="img-delivery">
+                        <img src="img/services-and-delivery/services-and-delivery.png" alt="Доставка">
+                    </div>
                 </div>
-                <div class="img-delivery">
-                    <img src="img/services-and-delivery/services-and-delivery.png" alt="Доставка">
+                        
+                <div class="tab-content2 closetab">
+                    <h4>Гарантия</h4>
+                    <p>Если купленный у нас товар поломается или заискрит,а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
+                    <div class="img-guarantee">
+                        <img src="img/services-and-delivery/guarantee.png" alt="Гарантия">
+                    </div>
+                </div>                    
+                    
+            
+                <div class="tab-content3 closetab">
+                    <h4>Кредит</h4>
+                    <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
+
+                    <a class="send-request" href="#">ОТПРАВИТЬ ЗАЯВКУ</a>
+                    
+                    <div class="img-credit">
+                        <img src="img/services-and-delivery/credit.png" alt="Кредит">
+                    </div>
                 </div>
             </div>
         </div>     
     </div>
     
-
-            <!--  Блок "services-and-delivery" раздел "Гарантия" 
-            <div class="guarantee">
-                <div class="services">
-                    <span class="span-services">Сервисы</span>
-                    <p class="p-services">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-                </div>
-                <div class="services-and-delivery-menu">
-                    <ul class="ul-services-and-delivery-menu">
-                        <li><a class="a-delivery" href="#">Доставка</a></li>
-                        <li><a class="a-guarantee" href="#">Гарантия</a></li>
-                        <li><a class="a-credit" href="#">Кредит</a></li>
-                    </ul>    
-                </div>
-                <div class="guarantee-info">
-                    <span class="span-guarantee">Гарантия</span>
-                    <p class="p-guarantee">Если купленный у нас товар поломается или заискрит,а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж восстановите как-нибудь сами.</p>
-                </div>
-                <div class="img-guarantee">
-                    <img src="http://placehold.it/150x100" alt="Гарантия">
-                </div>
-            </div>  -->
-            
-            <!--  Блок "services-and-delivery" раздел "Кредит" 
-            <div class="credit">
-                <div class="services">
-                    <b class="b-services">Сервисы</b>
-                    <p class="p-services">Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
-                </div>
-                <div class="services-and-delivery-menu">
-                    <ul class="ul-services-and-delivery-menu">
-                        <li><a class="a-delivery" href="#">Доставка</a></li>
-                        <li><a class="a-guarantee" href="#">Гарантия</a></li>
-                        <li><a class="a-credit" href="#">Кредит</a></li>
-                    </ul>    
-                </div>
-                <div class="credit-info">
-                    <span class="span-credit">Кредит</span>
-                    <p class="p-credit">Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.</p>
-                    <a class="send-request href"#">Отправить заявку</a>
-                </div>
-                <div class="img-credit">
-                    <img src="http://placehold.it/150x100" alt="Кредит">
-                </div>
-            </div>  -->
-        
-        
     <div class="about">
         <div class="container clearfix">
             <div class="company-contacts">
@@ -295,7 +269,11 @@
                 <div class="contacts">
                     <h3 class="contacts-header">КОНТАКТЫ</h3>
                     <span>Вы можете забрать товар сами, <br>заехав в наш офис:</span>
-                    <img src="img/about/map.jpg" vspace="30" alt="Наш офис">
+                    <a class="map-link" href="#"><img src="img/about/map.jpg" vspace="30" alt="Наш офис"></a>
+                </div>
+
+                <div class="map">   
+                    <img src="img/about/map.png">
                 </div>
 
                 <a class="write-to-us" href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
@@ -306,7 +284,7 @@
                     <section>
                         <div class="your-name">
                             Ваше имя:
-                            <br><input type="text" placeholder="Представтесь, пожалуйста"></input>
+                            <br><input name="name" type="text" placeholder="Представтесь, пожалуйста"></input>
                         </div>
                         <div class="your-email">
                             Ваш e-mail:
@@ -318,13 +296,9 @@
                         </div>
                     </section>
                     <div class="write-to-us-submit">
-                            <input type="submit"></input>
+                        <input type="submit"></input>
                     </div>
                 </div>
-
-                <dir class="map">   
-                    <img src="img/about/map.png">
-                </dir>
             </div>
         </div>
     </div>  

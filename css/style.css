@@ -880,6 +880,7 @@ body {
 .services-and-delivery {
     margin-top: 85px;
     background-color: #f2f6f8;
+    padding-bottom: 100px;
 }
 
 .services-delivery-block {
@@ -920,7 +921,9 @@ body {
     
 }
 
-.services-and-delivery-menu a {
+.services-btn1,
+.services-btn2,
+.services-btn3 {
     display: block;
     width: 58px;
     padding-top: 20px;
@@ -934,7 +937,9 @@ body {
     text-decoration: none;
 }
 
-.services-and-delivery-menu a:hover {
+.services-btn1:hover,
+.services-btn2:hover,
+.services-btn3:hover {
     background-color: #293449;
     color: #ffffff;
     border-top: 1px solid #293449;
@@ -942,30 +947,66 @@ body {
     transition: 0.4s;
 }
 
-.delivery-info {
+.showservices {
+    background-color: #ffffff;
+    color: #32425c;
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+    text-decoration: none;
+}
+
+.tab-content1,
+.tab-content2,
+.tab-content3{
+    display: block;
     position: absolute;
     top: 237px;
     left: 321px;
     width: 268px;
 }
 
-.delivery-info h4 {
+.tab-content h4 {
     margin: 0;
     font-size: 30px;
     color: #32425c;
 }
 
-.delivery-info p {
+.tab-content p {
     margin-top: 25px;
     line-height: 25px;
     font-size: 14px;
 }
 
+.closetab {
+    display: none;
+}
+
 .img-delivery {
     width: 475px;
-    margin-left: 430px;
-    margin-top: -165px;
-    
+    margin-left: 230px;
+    margin-top: -158px;
+}
+
+.img-guarantee {
+    margin-left: 230px;
+    margin-top: -228px;
+}
+
+.img-credit {
+    margin-left: 230px;
+    margin-top: -200px;
+}
+
+.send-request {
+    display: block;
+    text-decoration: none;
+    background-color: #ee3643;
+    color: #fff;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 195px;
+    text-align: center;
+    border-radius: 3px;
 }
 
 .company-contacts {
@@ -1153,6 +1194,14 @@ body {
     border-radius: 3px;
     cursor: pointer;
     color: #ffffff;
+}
+
+.write-to-us-submit input:hover {
+    background-color: #ca2c37;
+}
+
+.write-to-us-submit input:active {
+    background-color: #ba2732;
 }
 
 .write-to-us-block a {
