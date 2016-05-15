@@ -50,3 +50,15 @@ linksb3.addEventListener("click", function(event) {
 	tabcontent2.classList.add("closetab");
 	tabcontent3.classList.remove("closetab");
 });
+
+var linkmap = document.querySelector(".map-link");
+var modalmap = document.querySelector(".modal-map");
+var linkclosemap = document.querySelector(".closemap-icon");
+
+linkmap.addEventListener("click", function(event) {
+	event.preventDefault();	
+	modalmap.classList.remove("close-map");
+linkclosemap.addEventListener("click", function(event) {
+	event.preventDefault();
+	modalmap.classList.add("close-map");
+});});

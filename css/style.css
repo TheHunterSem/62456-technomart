@@ -82,7 +82,7 @@ body {
 /*ШАПКА*/
 
 .top-navigation {
-    height: : 42px;
+    height: 42px;
 }
 
 .logo {
@@ -760,7 +760,7 @@ body {
     margin-top: 10px;
     margin-bottom: 15px;
     font-weight: bold;
-    font-style: "PTSans";
+    font-family: "PTSans";
 }
 
 .pop-goods-item .discount {
@@ -932,6 +932,9 @@ body {
     padding-left: 22px;
     background-color: #32425c;
     color: #ffffff;
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: bold;
     border-bottom: 1px solid #293449;
     border-top: 1px solid #405069;
     text-decoration: none;
@@ -1009,6 +1012,22 @@ body {
     border-radius: 3px;
 }
 
+.modal-map {
+    position: fixed;
+    top: 70px;
+    right: 200px;
+}
+
+.close-map {
+    display: none;
+}
+
+.closemap-icon {
+    display: block;
+    
+}
+
+
 .company-contacts {
     position: relative;
 }
@@ -1069,6 +1088,12 @@ body {
     display: block;
     font-size: 30px;
     margin-top: 0px;
+}
+
+.modal-map a {
+    position: fixed;
+    top: 70px; 
+    right: 170px;
 }
 
 .write-to-us {
@@ -1590,7 +1615,6 @@ body {
 }
 
 .breadcrumbs-container ul {
-    
     list-style: none;
     padding: 0;
     margin: 0;
@@ -1599,17 +1623,16 @@ body {
 .breadcrumbs-container li {
     float: left;
     display: block;
-    padding-left: 18px;
-    padding-right: 16px;
 }
 
 .breadcrumbs-icon {
     float: left;
-    padding-right: 14px;
 }
 
 .breadcrumbs-bracket {
     float: left;
+    padding-left: 15px;
+    padding-right: 16px;
 }
 
 .product-header {
@@ -2070,3 +2093,17 @@ body {
     margin-bottom: 62px;
 }
 
+.max-price input {
+    margin-right: 0px;
+    margin-left: 15px;
+}
+
+.hr-range-controls {
+    margin-top: 25px; 
+    margin-bottom: 0px;
+}
+
+.hr-checkbox-filter {
+    margin-top: 13px; 
+    margin-bottom: 0px;
+}
