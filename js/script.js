@@ -1,3 +1,21 @@
+var searchcontainer = document.querySelector(".search-container"); 
+if (searchcontainer) { 
+  var searchinput = document.querySelector(".search"); 
+  var container = document.querySelector(".second-header");
+
+searchinput.addEventListener("click", function () { 
+  searchcontainer.classList.add("white-sc"); 
+  searchinput.classList.add("white-search"); 
+  searchcontainer.classList.add("icon-red"); 
+});
+
+container.addEventListener("click", function () { 
+  searchcontainer.classList.remove("white-sc"); 
+  searchinput.classList.remove("white-search"); 
+  searchcontainer.classList.remove("icon-red"); 
+});
+}
+
 var link = document.querySelector(".write-to-us");
 if (link) {
   var writetous = document.querySelector(".write-to-us-block");
