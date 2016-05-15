@@ -99,30 +99,36 @@ body {
     background-color: #ee3643;
 }
 
+.logo:hover {
+    background-color: #ca2c37;
+}
+
+.logo:active {
+    background-color: #ba2732;
+}
+
 .search {
+    position: relative;
     display: block;
     float: left;
-    margin-left: 48px;
-    margin-top: 5px;
-    padding: 6px;
-    width: 200px;
+    padding-left: 47px;
+    height: 42px;
+    width: 258px;
     border-style: none;
     background-color: #293449;
     border-color: #293449;
     font-size: 17px;
     color: #ffffff;
+    outline: none;
 }
 
-.search-container {
-    position: relative;
-}
 
-.search-container::before {
+.search::before {
     font-family: "symbols-technomart";
     position: absolute;
     content: "\1f50d";
-    top: 12px;
-    left: 240px;
+    top: 10px;
+    left: 10px;
     width: 17px;
     height: 17px;
     font-size: 17px;
@@ -150,6 +156,7 @@ body {
     display: inline-block;
     float: right;
     height: 33px;
+    width: 66px;
     padding-top: 9px;
     font-size: 17px;
     background-color: #ee3643;
@@ -196,8 +203,12 @@ body {
 }
 
 .top-navigation-menu a:nth-child(3) {
-    padding-left: 52px;
+    padding-left: 62px;
     padding-right: 20px;
+}
+
+.favourites {
+    margin-left: 0;
 }
 
 .favourites::before {
@@ -2194,3 +2205,4 @@ body {
 .close-modal-cart {
     display: none;
 }
+
