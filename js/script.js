@@ -62,3 +62,10 @@ linkclosemap.addEventListener("click", function(event) {
 	event.preventDefault();
 	modalmap.classList.add("close-map");
 });});
+
+
+var linkbuy = document.querySelectorAll(".actions .buy");
+
+linkbuy.addEventListener("click", function(event) {
+	event.preventDefault();
+});
