@@ -1203,39 +1203,40 @@ height: 104px;
 .tab-content1, 
 .tab-content2, 
 .tab-content3{ 
-display: block; 
-position: absolute; 
-top: 237px; 
-left: 321px; 
-width: 625px; 
+    display: block; 
+    position: absolute; 
+    top: 237px; 
+    left: 321px; 
+    width: 625px; 
+    min-height: 500px;
 } 
 .tab-content1 p, 
 .tab-content2 p, 
 .tab-content3 p{ 
-width: 268px; 
+    width: 268px; 
 } 
 
 .tab-content1 h4, 
 .tab-content2 h4, 
 .tab-content3 h4 { 
-font-family: "PTSans Regular", Arial, sans-serif; 
-font-size: 36px; 
-line-height: 24px; 
-font-weight: normal; 
-color: #32425c; 
-margin: 0; 
-padding-bottom: 22px; 
-text-transform: uppercase; 
+    font-family: "PTSans Regular", Arial, sans-serif; 
+    font-size: 36px; 
+    line-height: 24px; 
+    font-weight: normal; 
+    color: #32425c; 
+    margin: 0; 
+    padding-bottom: 22px; 
+    text-transform: uppercase; 
 } 
 
 .tab-content1 { 
-background: url("../img/services-and-delivery/services-and-delivery.png") no-repeat right top; 
+    background: url("../img/services-and-delivery/services-and-delivery.png") no-repeat right top; 
 } 
 .tab-content2 { 
-background: url("../img/services-and-delivery/guarantee.png") no-repeat right top; 
+    background: url("../img/services-and-delivery/guarantee.png") no-repeat right top; 
 } 
 .tab-content3 { 
-background: url("../img/services-and-delivery/credit.png") no-repeat right top; 
+    background: url("../img/services-and-delivery/credit.png") no-repeat right top; 
 }
 
 .closetab {
@@ -2410,6 +2411,7 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
     width: 620px;
     height: 282px;
     background-color: #fff;
+    z-index: 999;
 }
 
 .bottom-line {
