@@ -175,7 +175,7 @@ body {
 .top-navigation-menu {
     position: relative;
     float: right;
-    width: 460px;
+    width: 462px;
     height: 42px;
 }
 
@@ -630,6 +630,48 @@ body {
     background-image: url("../img/slider/slider1.jpg");
 }
 
+.drill {
+    display: none;
+}
+
+.next-arrow {
+    position: absolute;
+    top: 130px;
+    right: 10px;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+}
+
+.slider-controls{
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    width: 200px;
+    height: 10px;
+    margin-left: -100px;
+    text-align: center;
+}
+
+.slider-controls i {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    margin: 0 3px;
+    background: white;
+    border: 3px solid white;
+    vertical-align: top;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.slider-controls .active{
+    background: red;
+}
+
 .material:nth-child(4) h4 {
     margin-top: 0;
     font-size: 36px; 
@@ -1002,7 +1044,14 @@ body {
 }
 
 .services-and-delivery-menu {
+    position: relative;
     margin-top: 234px;
+}
+
+.sd-shadow {
+    position: absolute;
+    top: -23px;
+    left: 208px;
 }
 
 .services-and-delivery-menu ul {
@@ -1105,6 +1154,14 @@ body {
     width: 195px;
     text-align: center;
     border-radius: 3px;
+}
+
+.send-request:hover {
+    background-color: #ca2c37;
+}
+
+.send-request:active {
+    background-color: #ba2732;
 }
 
 .modal-map {
