@@ -15,6 +15,7 @@ body {
 [class^="icon-"]::before,
 [class*=" icon-"]::before {
   display: inline-block;
+  vertical-align: middle;
   width: 1em;
   margin-right: 0.2em;
   margin-left: 0.2em;
@@ -187,6 +188,7 @@ body {
     font-size: 17px;
     color: #ffffff;
     text-decoration: none;
+    vertical-align: middle;
 }
 
 .top-navigation-menu .cart-catalog {
@@ -199,6 +201,7 @@ body {
     background-color: #ee3643;
     color: #ffffff;
     text-decoration: none;
+    vertical-align: middle;
 }
 
 .top-navigation-menu .cart-catalog:hover {
@@ -473,6 +476,7 @@ body {
 
 .main-navigation li {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .main-navigation a {
@@ -563,6 +567,13 @@ height: 104px;
 }
 
 .drill h4 {
+    padding: 0;
+    margin-top: 26px;
+    margin-left: 23px;
+    margin-bottom: 0;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
     font-weight: bold;
     font-family: "Cuprum Bold", "Cuprum", Arial, sans-serif;
 }
@@ -570,7 +581,7 @@ height: 104px;
 .drill span {
     font-family: "PTSans Regular", Arial, sans-serif;
     padding: 0;
-    margin-left: 20px;
+    margin-left: 23px;
     font-size: 18px;
     line-height: 24px;
     color: #fff;
@@ -696,6 +707,7 @@ height: 104px;
     vertical-align: top;
     border-radius: 50%;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 .slider-controls .active{
@@ -1545,6 +1557,7 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
 .first-footer-nav-one li {
     display: inline-block;
     padding-left: 60px;
+    vertical-align: middle;
 }
 
 .first-footer-nav-one a {
@@ -1571,6 +1584,7 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
 .first-footer-nav-two li {
     display: inline-block;
     padding-left: 60px;
+    vertical-align: middle;
 }
 
 .first-footer-nav-two a {
@@ -1628,6 +1642,7 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
     margin-left: 5px;
     width: 43px;
     height: 43px;
+    vertical-align: middle;
 }
 
 .social-btn-vk::before {
@@ -2000,6 +2015,7 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
     font-size: 17px;
     display: inline-block;
     width: 50%;
+    vertical-align: middle;
 }
 
 .price-controls input {
@@ -2192,6 +2208,7 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
     display: inline-block;
     margin-top: 13px;
     margin-left: 170px;
+    vertical-align: middle;
 }
 
 .sorting-line li:nth-child(2) {
@@ -2312,6 +2329,7 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
 
 .pages li {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .pages a {
@@ -2326,11 +2344,11 @@ background: url("../img/services-and-delivery/credit.png") no-repeat right top;
     background-color: #ffffff;
 }
 
-.pages li:first-child a {
+.first-page {
     margin-left: 0;
 }
 
-.pages li:last-child a {
+.next-page {
     padding: 12px 31px;
 }
 
