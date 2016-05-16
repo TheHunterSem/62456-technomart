@@ -907,6 +907,7 @@ body {
 
 .pop-goods-item-image img {
     max-width: 100%;
+    padding-top: 32px;
 }
 
 .pop-goods-item .title {
@@ -994,6 +995,49 @@ body {
     width: 940px;
     margin-top: 20px;
 }
+
+.brand1 {
+    margin-top: 49px;
+    margin-left: 43px;
+}
+
+.brand2 {
+    margin-top: 49px;
+    margin-left: 45px;
+}
+
+.brand3 {
+    margin-top: 49px;
+    margin-left: 37px;
+}
+
+.brand4 {
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.brand5 {
+    margin-top: 52px;
+    margin-left: 35px;
+}
+
+.brand6 {
+    margin-top: 25px;
+    margin-left: 55px;
+}
+
+.brand7 {
+    margin-top: 28px;
+    margin-left: 37px;
+}
+
+.brand8 {
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+
+
 
 .brands {
     position: relative;
@@ -1194,6 +1238,10 @@ body {
     background-image: url(../img/about/big-map.jpg);
 }
 
+.modal-map iframe {
+    border: 0;
+}
+
 .close-map {
     display: none;
 }
@@ -1203,10 +1251,14 @@ body {
     
 }
 
+.contacts img {
+    margin-top: 30px;
+}
 
 .company-contacts {
     position: relative;
 }
+
 
 .company-tehnomart {
     line-height: 24px;
